@@ -8,8 +8,6 @@ namespace AdventOfCode
 {
     internal class Day1 : Puzzle
     {
-        public Day1() : base(1) { }
-
         private List<int> ParseInput()
         {
             var total = new List<int>();

@@ -2,8 +2,6 @@
 {
     internal class Day3 : Puzzle
     {
-        public Day3() : base(3) { }
-
         private List<IEnumerable<int>[]> ParseInput(bool firstPart)
         {
             var parsedInput = new List<IEnumerable<int>[]>();

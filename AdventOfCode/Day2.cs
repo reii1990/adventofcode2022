@@ -10,8 +10,6 @@ namespace AdventOfCode
 {
     internal class Day2 : Puzzle
     {
-        public Day2() : base(2) { }
-
         private List<int[]> ParseInput(bool firstPart)
         {
             var total = new List<int[]>();
